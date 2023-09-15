@@ -7,9 +7,12 @@ In this tutorial, we'll walk through the process of adding 42 authentication to 
 
 # Prerequisites
 #### Before we begin, make sure you have the following:
-
-- Node.js installed on your machine.
-- NestJS project set up and running.
+- Go to intra setting in the API section  
+   ![API](https://github.com/hamza-bouqssim/42_authentication_tutorial/blob/main/uploads/api%20(1).png)  
+- Create new app and follow the steps bcs you will need the UID && secretID and type a callbackURL for example type this: `http://localhost:3000/auth/42/redirect`  
+  ![APP](https://github.com/hamza-bouqssim/42_authentication_tutorial/blob/main/uploads/uidcsecret%20(1).png)
+- You need Node.js installed on your machine.
+- And a NestJS project set up and running.
 # Install Dependencies
 #### cd into your project and type this command to install Passport and Prisma [Prisma Quickstart Guide](https://www.prisma.io/docs/getting-started/quickstart) ).
 ```
