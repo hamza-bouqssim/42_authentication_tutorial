@@ -15,7 +15,7 @@ In this tutorial, we'll walk through the process of adding 42 authentication to 
 ```
 npm install passport-42 && npm install @nestjs/passport passport
 ```
-# Of course you need where to store user infos! follow this .
+# Of course you need where to store user infos! follow this (you can skip this step of creating and running the Database).
 ### Next, initialize a TypeScript project using npm:
 
 ```
